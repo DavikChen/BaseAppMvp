@@ -11,7 +11,9 @@ import android.view.Display;
 import android.view.WindowManager;
 
 /**
- * Created by Hasnion on 2016/7/25.
+ * @class describe 像素密度转换工具类
+ * @anthor davikchen
+ * @time 2017/11/21 09:28
  */
 public class UiUtils {
 

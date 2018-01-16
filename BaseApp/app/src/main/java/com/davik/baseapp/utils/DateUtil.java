@@ -3,9 +3,10 @@ package com.davik.baseapp.utils;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-
 /**
- * 日期操作类，包括格式化获取时间，获取当时时、分、秒等方法。
+ * @class describe 日期操作类，包括格式化获取时间，获取当时时、分、秒等方法
+ * @anthor davikchen
+ * @time 2017/11/21 09:28
  */
 public class DateUtil {
 	

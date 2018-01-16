@@ -5,7 +5,9 @@ import com.davik.baseapp.ui.activity.SplashActivity;
 import com.davik.baseapp.utils.SharedPrefsUtil;
 
 /**
- * Description：
+ * @class describe  启动页面控制器
+ * @anthor davikchen
+ * @time 2017/11/21 09:28
  */
 public class SplashPresenter extends BasePresenter<SplashActivity> implements SplashContract.ISplashPresenter {
 

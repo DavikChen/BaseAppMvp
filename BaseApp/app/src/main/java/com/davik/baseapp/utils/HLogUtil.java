@@ -3,9 +3,9 @@ package com.davik.baseapp.utils;
 import android.util.Log;
 
 /**
- * Description：Log工具类
- * Author: Hansion
- * Time: 2017/2/3 11:11
+ * @class describe Log工具类
+ * @anthor davikchen
+ * @time 2017/11/21 09:28
  */
 public class HLogUtil {
 

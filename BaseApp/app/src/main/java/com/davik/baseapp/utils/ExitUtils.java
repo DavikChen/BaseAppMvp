@@ -5,8 +5,9 @@ import android.os.CountDownTimer;
 import android.widget.Toast;
 
 /**
- * 退出时toast询问是否退出的工具类
- * 
+ * @class describe 退出时toast询问是否退出的工具类
+ * @anthor davikchen
+ * @time 2017/11/21 09:28
  */
 public class ExitUtils {
 

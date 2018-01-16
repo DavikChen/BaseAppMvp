@@ -3,10 +3,11 @@ package com.davik.baseapp.utils;
 import android.content.Context;
 import android.content.SharedPreferences;
 
+
 /**
- * Description：sharedpreferences工具类
- * Author: Hansion
- * Time: 2016/10/8 18:47
+ * @class describe sharedpreferences工具类
+ * @anthor davikchen
+ * @time 2017/11/21 09:28
  */
 public class SharedPrefsUtil {
 

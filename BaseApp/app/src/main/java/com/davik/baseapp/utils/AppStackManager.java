@@ -4,9 +4,10 @@ import android.app.Activity;
 
 import java.util.Stack;
 
-
 /**
- * Created by Administrator on 2016/8/30.
+ * @class describe 应用Activity管理器
+ * @anthor davikchen
+ * @time 2017/11/21 09:28
  */
 public class AppStackManager {
 

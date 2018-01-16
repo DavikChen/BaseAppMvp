@@ -4,7 +4,9 @@ import com.davik.baseapp.contract.MainContract;
 import com.davik.baseapp.ui.activity.MainActivity;
 
 /**
- * Description：
+ * @class describe  APP主页控制器
+ * @anthor davikchen
+ * @time 2017/11/21 09:28
  */
 public class MainPresenter extends BasePresenter<MainActivity> implements MainContract.IMainPresenter {
 

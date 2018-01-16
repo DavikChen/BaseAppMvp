@@ -3,8 +3,11 @@ package com.davik.baseapp;
 import android.app.Application;
 import android.content.Context;
 
+
 /**
- * Description：
+ * @class describe 应用主入口
+ * @anthor davikchen
+ * @time 2017/11/21 09:28
  */
 public class App extends Application {
 

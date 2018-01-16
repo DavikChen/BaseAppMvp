@@ -6,9 +6,9 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 
 /**
- * Description：图片显示工具类
- * Author: Hansion
- * Time: 2017/2/3 11:32
+ * @class describe 图片显示工具类
+ * @anthor davikchen
+ * @time 2017/11/21 09:28
  */
 public class ImageUtil {
 

@@ -2,7 +2,9 @@ package com.davik.baseapp.contract;
 
 
 /**
- * Description：Base --- Contract
+ * @class describe  契约基类
+ * @anthor davikchen
+ * @time 2017/11/21 09:28
  */
 public interface BaseContract {
     interface  IBasePresenter {

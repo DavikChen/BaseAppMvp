@@ -6,8 +6,6 @@ import android.widget.Toast;
 import com.davik.baseapp.App;
 
 /**
- * @name trunk
- * @class name：com.davik.baseapp.utils
  * @class describe Toast 工具类 使用的是应用上下文 可以防止同一时间弹出多个Toast的问题
  * @anthor davikchen
  * @time 2017/8/2 19:06

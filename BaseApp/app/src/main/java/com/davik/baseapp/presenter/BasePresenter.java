@@ -7,7 +7,9 @@ import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 
 /**
- * Description：对Activity进行弱引用处理的BasePresenter
+ * @class describe 对Activity进行弱引用处理的BasePresenter
+ * @anthor davikchen
+ * @time 2017/11/21 09:28
  */
 public abstract class BasePresenter<V extends BaseContract.IBase> implements BaseContract.IBasePresenter{
     protected Reference<V> mViewRef;
