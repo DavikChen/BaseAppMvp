@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_alignParentBottom="true">
+
+    <RelativeLayout
+        android:id="@+id/main_tabrelativelayoutid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentTop="true"
+            android:background="#e5e5e5"/>
+
+        <RadioGroup
+            android:id="@+id/rgBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbTabOne"
+                style="@style/MainActivity_Bottom_RedioButton_style"
+                android:layout_marginBottom="@dimen/main_btn_margin"
+                android:layout_marginTop="5dip"
+                android:drawablePadding="1dip"
+                android:drawableTop="@drawable/home_bottom_home"
+                android:text="TAB1"
+                android:textColor="@color/tab_text_color"
+                android:textSize="11sp"/>
+
+            <RadioButton
+                android:id="@+id/rbTabTwo"
+                style="@style/MainActivity_Bottom_RedioButton_style"
+                android:layout_marginBottom="@dimen/main_btn_margin"
+                android:layout_marginTop="5dip"
+                android:drawablePadding="1dip"
+                android:drawableTop="@drawable/home_bottom_warm"
+                android:text="TAB2"
+                android:textColor="@color/tab_text_color"
+                android:textSize="11sp"/>
+
+
+            <RadioButton
+                android:id="@+id/rbTabThree"
+                android:visibility="visible"
+                style="@style/MainActivity_Bottom_RedioButton_style"
+                android:layout_marginBottom="@dimen/main_btn_margin"
+                android:layout_marginTop="5dip"
+                android:drawablePadding="1dip"
+                android:drawableTop="@drawable/home_bottom_news"
+                android:text="TAB2"
+                android:textColor="@color/tab_text_color"
+                android:textSize="11sp"/>
+
+            <RadioButton
+                android:id="@+id/rbTabFour"
+                style="@style/MainActivity_Bottom_RedioButton_style"
+                android:layout_marginBottom="@dimen/main_btn_margin"
+                android:layout_marginTop="5dip"
+                android:drawablePadding="1dip"
+                android:drawableTop="@drawable/home_bottom_mine"
+                android:text="TAB2"
+                android:textColor="@color/tab_text_color"
+                android:textSize="11sp"/>
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
